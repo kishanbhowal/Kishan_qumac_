@@ -1,0 +1,12 @@
+*.npy
+*.npz 
+*.csv
+paramp_data_files/ 
+*.joblib 
+*.dll
+*.bit
+*.zip
+
+.ipynb_checkpoints/ 
+__pycache__/ 
+*.pyc
