@@ -1,1 +1,29 @@
-name: qumac_envchannels:  - conda-forgedependencies:  - python=3.10  - numpy  - scipy  - pandas  - matplotlib  - jupyter  - ipykernel  - scikit-learn  - seaborn  - pip  - pip:      - pyvisa      - qutip      - qiskit      - qiskit-dynamics      - qm-qua      - qm-octave      - qualang-tools      - zhinst      - zhinst-core      - zhinst-toolkit      - zhinst-utils
+name: qumac_env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - scikit-learn
+  - seaborn
+  - pip
+
+  - pip:
+      - pyvisa
+      - qutip
+      - qiskit
+      - qiskit-dynamics
+      - qm-qua
+      - qm-octave
+      - qualang-tools
+      - zhinst
+      - zhinst-core
+      - zhinst-toolkit
+      - zhinst-utils
